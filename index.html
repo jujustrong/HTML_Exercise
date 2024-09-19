@@ -4,90 +4,111 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
     <title>HTML Intro</title>
   </head>
   <body>
     <div id="exercise1">
-      <!-- Complete Exercise 1 HERE -->
+      <h1 class="prof-name">Julian Armstrong</h1>
+      <p class="bio">Frontend / Backend Developer that likes to run around in the mountains.</p>
     </div>
 
     <div id="exercise2">
-      <!-- Complete Exercise 2 HERE -->
+      <ul class="list">
+        <li class="linkedin"><a href="https://www.linkedin.com/feed/">LinkedIn</a></li>
+        <li class="truecoders"><a href="https://truecoders.io/?_camp=brand&_adgroup=un&gad_source=1&gbraid=0AAAAABmG_6miQK--omUpVlqUp_hFKifkr&gclid=CjwKCAjwl6-3BhBWEiwApN6_kkW4UgmFcdZ_KDRmb7Cu5SvuHXjTg6_wnIEcns7fXRBn0IDIBvCNcBoCZtcQAvD_BwE">TrueCoders</a></li>
+        <li class="strava"><a href="https://www.strava.com/athletes/113154104">Strava</a></li>
+      </ul>
     </div>
 
     <div id="exercise3">
-      <!-- Complete Exercise 3 HERE -->
+      <img class="example-img" src="images/example.png" alt="example img">
     </div>
 
     <div id="exercise4">
       <!-- Complete Exercise 4 HERE -->
       <p>
-        I looked down at the board. "The point isn't to win?" I asked. "The
-        point," Bredon said grandly, "is to play a beautiful game." He lifted
-        his hands and shrugged, his face breaking into a beautific smile. "Why
-        would I want to win anything other than a beautiful game?"
+        I looked down at the board. "The <strong>point</strong> isn't to win?" I asked. "The
+        point," <span>Bredon</span> said grandly, "is to <u>play</u> a <em>beautiful</em> game." He lifted
+        his hands and shrugged, his face breaking into a <em>beautiful</em> smile. "Why
+        would I want to win anything other than a <em>beautiful</em> game?"
       </p>
     </div>
 
     <div id="exercise5">
       <!-- Complete Exercise 5 HERE -->
-      <div>
-        <div>
-          <div>
-            <span>
-              <a href="/">Home</a>
-            </span>
-            <span>
-              <a href="/about">About</a>
-            </span>
-            <span>
-              <a href="/projects">Projects</a>
-            </span>
-          </div>
-        </div>
-      </div>
+      <header class="container">
+        <nav class="navbar">
 
-      <div>
-        <div>
+          <ul class="navlist">
+            <li>
+              <a href="/">Home</a>
+            </li>
+            <li>
+              <a href="/about">About</a>
+            </li>
+            <li>
+              <a href="/projects">Projects</a>
+            </li>
+          </ul>
+
+        </nav>
+      </header>
+
+      <main>
+
+        <section class="sect1">
           <h1>Main Heading</h1>
           <p>Author.. Bio...</p>
-        </div>
-        <div>
-          <div>
-            <h2>Sub Heading</h2>
-            <div>
-              <p>Lorem ipsum...</p>
-            </div>
-          </div>
-          <div>
+        </section>
+
+        <article class="article">
+
+          <section class="sect2">
+            <h2>Work History</h2>
+            <ul class="work-history">
+              <li>Job1</li>
+              <li>Job2</li>
+              <li>Job3</li>
+            </ul>
+          </section>
+
+          <section class="sect3">
             <h2>Sub Heading</h2>
             <p>Lorem ipsum...</p>
             <div>
               <h3>Another Sub Heading</h3>
               <p>Lorem ipsum...</p>
             </div>
-          </div>
-        </div>
-	</div>
+          </section>
 
-      <div>
-        <div>
-          <div>
-            <span>
-              <a href="/privacy">Privacy Policy</a>
-            </span>
-            <span>
-              <a href="/terms">Terms and Conditions</a>
-            </span>
-          </div>
-        </div>
+        </article>
 
-        <div>
-          <p>Powered by 🕯️</p>
-          <p>&copy; TrueCoders 2021-24</p>
-        </div>
-      </div>
+	    </main>
+
+      <footer class="footer">
+
+        <nav class="footerNav">
+          
+          <p class="privacyPolicy">
+            <a href="/privacy">Privacy Policy</a>
+          </p>
+            
+          <p class="terms">
+            <a href="/terms">Terms and Conditions</a>
+          </p>
+
+          <div class="contact">
+            <p>Powered by 🕯️</p>
+            <p>&copy; TrueCoders 2021-24</p>
+          </div>
+
+        </nav>
+
+      </footer>
+
     </div>
 	
   </body>
+
 </html>
